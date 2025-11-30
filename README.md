@@ -1,4 +1,5 @@
-##🏎️ Formula 1 Data Analysis - SQL Project
+## 🏎️ Formula 1 Data Analysis - SQL Project
+
 ##📌 Project Overview
 This project performs an extensive Exploratory Data Analysis (EDA) on historical Formula 1 data (1950 - present). Using PostgreSQL, I built a relational database from scratch, designed a Star Schema, and executed complex SQL queries to uncover insights about drivers, constructors, circuits, and race results.
 

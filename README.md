@@ -9,7 +9,7 @@ Database: PostgreSQL 16
 
 GUI Tool: pgAdmin 4
 
-Data Source:[CLICK HERE]!(https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
+Data Source:[CLICK HERE](https://www.kaggle.com/datasets/rohanrao/formula-1-world-championship-1950-2020)
 
 Concepts Used: Joins (Inner/Left), Aggregations, Pattern Matching, Date/Time Math, Subqueries, Data Cleaning.
 

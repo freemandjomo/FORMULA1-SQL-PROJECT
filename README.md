@@ -27,7 +27,7 @@ This project performs an **extensive Exploratory Data Analysis (EDA)** on histor
 
 ## 📊 Database Schema (ERD)
 
-[](https://github.com/freemandjomo/FORMULA1-SQL-PROJECT/blob/main/image%20relationnal%20Databases.png)
+[bild](https://github.com/freemandjomo/FORMULA1-SQL-PROJECT/blob/main/image%20relationnal%20Databases.png)
 
 
 <summary><strong>📝 Click here to see the Database Setup Script (SQL)</strong></summary>

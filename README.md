@@ -4,6 +4,9 @@
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?style=for-the-badge&logo=postgresql)
 ![Status](https://img.shields.io/badge/Status-Complete-success?style=for-the-badge)
 
+![](https://github.com/freemandjomo/FORMULA1-SQL-PROJECT/blob/main/mQaYWoU8tmXqVgK6BF6T5k3SVFGRsrO7AdK82eTy9-w.webp)
+
+
 ---
 
 ##  Project Overview

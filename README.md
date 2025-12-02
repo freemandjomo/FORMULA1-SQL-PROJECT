@@ -347,7 +347,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author
+## 👨‍💻 Author : Merveilles Freeman Djomo Freeman
 
 **[Your Name]**  
 📧 [My email adress](djomofreeman1776@gmail.com)  

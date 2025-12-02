@@ -27,33 +27,7 @@ This project performs an **extensive Exploratory Data Analysis (EDA)** on histor
 
 ## 📊 Database Schema (ERD)
 
-I designed a **Star Schema** with `results` as the **fact table**, connecting `drivers`, `constructors`, and `races` via Foreign Keys.
 
-```
-┌─────────────┐       ┌──────────────┐       ┌────────────┐
-│   drivers   │       │    races     │       │constructors│
-├─────────────┤       ├──────────────┤       ├────────────┤
-│ driverId PK │◄──┐   │ raceId PK    │◄──┐   │constructorId│
-│ forename    │   │   │ year         │   │   │ name       │
-│ surname     │   │   │ name         │   │   │ nationality│
-│ nationality │   │   │ date         │   │   └────────────┘
-│ dob         │   │   └──────────────┘   │          ▲
-└─────────────┘   │                      │          │
-                  │   ┌──────────────┐   │          │
-                  └───┤   results    ├───┘          │
-                      ├──────────────┤              │
-                      │ resultId PK  │              │
-                      │ raceId FK    │──────────────┘
-                      │ driverId FK  │
-                      │ constructorId│
-                      │ points       │
-                      │ position     │
-                      └──────────────┘
-```
-
----
-
-<details>
 <summary><strong>📝 Click here to see the Database Setup Script (SQL)</strong></summary>
 
 ```sql

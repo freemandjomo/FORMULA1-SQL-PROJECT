@@ -335,13 +335,13 @@ LIMIT 10;
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Feel free to fork this repository and submit pull requests! Any improvements to the queries or additional analyses are welcome.
 
 ---
 
-## 📝 License
+##  License
 
 This project is open source and available under the [MIT License](LICENSE).
 
@@ -350,8 +350,8 @@ This project is open source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Author
 
 **[Your Name]**  
-📧 [your.email@example.com](mailto:your.email@example.com)  
-🔗 [LinkedIn](https://linkedin.com/in/yourprofile) | [GitHub](https://github.com/yourusername)
+📧 [My email adress](djomofreeman1776@gmail.com)  
+| [GitHub](https://github.com/yourusername)
 
 ---
 

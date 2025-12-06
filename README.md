@@ -281,7 +281,9 @@ LIMIT 3;
 *Calculate the age of drivers at the time of their first win using Date Math.*
 
 ```sql
-SELECT d.forename, d.surname, AGE(ra.date, d.dob) AS age_at_win
+SELECT d.forename,
+ d.surname,
+ AGE(ra.date, d.dob) AS age_at_win
 FROM results r
 JOIN drivers d ON r.driverId = d.driverId
 JOIN races ra ON r.raceId = ra.raceId
@@ -294,7 +296,12 @@ LIMIT 1;
 *A comprehensive report joining all 4 tables to summarize the 2021 season.*
 
 ```sql
-SELECT ra.date, ra.name, d.surname AS winner, c.name AS team, r.time, r.points
+SELECT ra.date,
+ra.name,
+d.surname AS winner,
+c.name AS team,
+r.time,
+r.points
 FROM results r
 JOIN races ra ON r.raceId = ra.raceId
 JOIN drivers d ON r.driverId = d.driverId
@@ -311,7 +318,8 @@ ORDER BY ra.date ASC;
 *Using a LEFT JOIN to find drivers who exist in the database but never recorded a win.*
 
 ```sql
-SELECT d.forename, d.surname
+SELECT d.forename,
+ d.surname
 FROM drivers d
 LEFT JOIN results r ON d.driverId = r.driverId AND r.positionOrder = 1
 WHERE r.resultId IS NULL

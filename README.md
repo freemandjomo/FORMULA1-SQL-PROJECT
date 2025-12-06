@@ -293,6 +293,7 @@ WHERE r.positionOrder = 1
 ORDER BY (ra.date - d.dob) ASC
 LIMIT 1;
 ```
+![](https://github.com/freemandjomo/FORMULA1-SQL-PROJECT/blob/main/max-verstappen-red-bull-racing-helmet-ieas0xpn0ab388xw.jpg)
 
 #### 1️⃣5️⃣ Ultimate 2021 Season Report 📊
 *A comprehensive report joining all 4 tables to summarize the 2021 season.*

@@ -119,6 +119,8 @@ CREATE TABLE results (
 
 ---
 
+[](https://github.com/freemandjomo/FORMULA1-SQL-PROJECT/blob/main/brian-mccall-QhiA6DdlgiM-unsplash%20(1).jpg)
+
 ## 🔎 Analysis & Queries
 
 Here are **16 SQL queries** ranging from basic filtering to complex reporting, demonstrating different analytical techniques.

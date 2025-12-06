@@ -365,9 +365,9 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ## Author : Merveilles Freeman Djomo Freeman
 
-**[Your Name]**  
+**[Freeman Djomo]**  
  [My email adress](djomofreeman1776@gmail.com)  
-| [GitHub](https://github.com/freemandjomo)
+| [My GitHub](https://github.com/freemandjomo)
 
 ---
 

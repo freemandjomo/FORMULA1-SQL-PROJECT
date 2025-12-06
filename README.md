@@ -120,7 +120,7 @@ Here are **16 SQL queries** ranging from basic filtering to complex reporting, d
 
 ---
 
-### 🟢 Level 1: Basics (Filtering & Sorting)
+### Level 1: Basics (Filtering & Sorting)
 
 #### 1️⃣ German Drivers
 *Retrieve all drivers with German nationality.*
@@ -168,7 +168,7 @@ LIMIT 10;
 
 ---
 
-### 🟡 Level 2: Joins (Connecting Tables)
+### Level 2: Joins (Connecting Tables)
 
 #### 6️⃣ Driver & Race Results
 *Join results, drivers, and races to see who raced when.*
@@ -204,7 +204,7 @@ LIMIT 1;
 
 ---
 
-### 🟠 Level 3: Logic & Comparisons
+###  Level 3: Logic & Comparisons
 
 #### 9️⃣ National Pride 🇩🇪🏁
 *Find instances where a driver and their team share the same nationality.*
@@ -229,7 +229,7 @@ WHERE grid = 1 AND positionOrder = 1;
 
 ---
 
-### 🔴 Level 4: Aggregation & Analysis
+###  Level 4: Aggregation & Analysis
 
 #### 1️⃣1️⃣ Team Hoppers 🔄
 *Identify drivers who have raced for the most unique constructors.*
@@ -270,7 +270,7 @@ LIMIT 3;
 
 ---
 
-### ⚫ Level 5: Complex Reporting (The "Boss" Level)
+###  Level 5: Complex Reporting (The "Boss" Level)
 
 #### 1️⃣4️⃣ Youngest Winner Ever 👶
 *Calculate the age of drivers at the time of their first win using Date Math.*
@@ -300,7 +300,7 @@ ORDER BY ra.date ASC;
 
 ---
 
-### 🟣 Bonus: Anti-Joins
+###  Bonus: Anti-Joins
 
 #### 1️⃣6️⃣ The "Unlucky Ones" 😢
 *Using a LEFT JOIN to find drivers who exist in the database but never recorded a win.*
@@ -347,11 +347,11 @@ This project is open source and available under the [MIT License](LICENSE).
 
 ---
 
-## 👨‍💻 Author : Merveilles Freeman Djomo Freeman
+## Author : Merveilles Freeman Djomo Freeman
 
 **[Your Name]**  
-📧 [My email adress](djomofreeman1776@gmail.com)  
-| [GitHub](https://github.com/yourusername)
+ [My email adress](djomofreeman1776@gmail.com)  
+| [GitHub](https://github.com)
 
 ---
 

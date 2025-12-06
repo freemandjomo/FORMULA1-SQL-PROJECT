@@ -351,7 +351,7 @@ This project is open source and available under the [MIT License](LICENSE).
 
 **[Your Name]**  
  [My email adress](djomofreeman1776@gmail.com)  
-| [GitHub](https://github.com)
+| [GitHub](https://github.com/freemandjomo)
 
 ---
 

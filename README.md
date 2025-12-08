@@ -372,5 +372,5 @@ This project is open source and available under the [MIT License](LICENSE).
 ---
 
 <div align="center">
-  <sub>Built with ❤️ and lots of ☕ by a Formula 1 & Data enthusiast</sub>
+  <sub>Built with ❤️ passion by a Formula 1 & Data enthusiast</sub>
 </div>

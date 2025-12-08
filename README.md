@@ -222,7 +222,10 @@ LIMIT 1;
 *Find instances where a driver and their team share the same nationality.*
 
 ```sql
-SELECT d.forename, d.surname, c.name AS team, d.nationality
+SELECT d.forename,
+ d.surname,
+ c.name AS team,
+d.nationality
 FROM results r
 JOIN drivers d ON r.driverId = d.driverId
 JOIN constructors c ON r.constructorId = c.constructorId
@@ -247,7 +250,9 @@ WHERE grid = 1 AND positionOrder = 1;
 *Identify drivers who have raced for the most unique constructors.*
 
 ```sql
-SELECT d.forename, d.surname, COUNT(DISTINCT r.constructorId) AS distinct_teams
+SELECT d.forename,
+ d.surname,
+COUNT(DISTINCT r.constructorId) AS distinct_teams
 FROM results r
 JOIN drivers d ON r.driverId = d.driverId
 GROUP BY d.driverId, d.forename, d.surname

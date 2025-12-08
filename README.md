@@ -181,7 +181,9 @@ LIMIT 10;
 *Join results, drivers, and races to see who raced when.*
 
 ```sql
-SELECT r.date, d.forename, d.surname 
+SELECT r.date,
+ d.forename,
+ d.surname 
 FROM results res
 JOIN drivers d ON res.driverId = d.driverId
 JOIN races r ON res.raceId = r.raceId;
@@ -200,7 +202,10 @@ JOIN constructors c ON res.constructorId = c.constructorId;
 *Find the race where a driver won despite starting from the furthest back on the grid.*
 
 ```sql
-SELECT d.forename, d.surname, r.name AS race_name, res.grid
+SELECT d.forename,
+ d.surname,
+r.name AS race_name,
+ res.grid
 FROM results res
 JOIN drivers d ON res.driverId = d.driverId
 JOIN races r ON res.raceId = r.raceId

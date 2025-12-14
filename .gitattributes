@@ -1,2 +1,5 @@
 *.csv linguist-language=SQL
 *.md linguist-documentation
+*.jpg linguist-vendored
+*.png linguist-vendored
+*.webp linguist-vendored

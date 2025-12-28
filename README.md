@@ -342,7 +342,7 @@ LIMIT 10;
 
 ---
 
-## 🚀 How to Run
+## 🚀 How to launch 
 
 1. **Install PostgreSQL** and **pgAdmin 4**
 2. Create a database named `Formula1`

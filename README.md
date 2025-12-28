@@ -109,10 +109,10 @@ CREATE TABLE results (
     FOREIGN KEY (constructorId) REFERENCES constructors(constructorId)
 );
 
- SELECT * From constructors;
- SELECT * From drivers;
- SELECT * From races;
- SELECT * From results;
+  SELECT * From constructors;
+  SELECT * From drivers;
+  SELECT * From races;
+  SELECT * From results;
 ```
 
 </details>

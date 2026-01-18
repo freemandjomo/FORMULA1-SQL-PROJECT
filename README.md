@@ -1,4 +1,4 @@
-# 🏎️ Formula 1 Data Analysis - SQL Project
+# 🏎️ Formula 1 Data Analysis - SQL Project.
 
 ![Formula 1](https://img.shields.io/badge/Formula%201-Data%20Analysis-red?style=for-the-badge&logo=formula1)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-16-blue?style=for-the-badge&logo=postgresql)
